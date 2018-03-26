@@ -41,8 +41,6 @@ The Caffe model can be downloaded at https://s3.amazonaws.com/jgoode/oxford102.c
 cd $CAFFE_HOME
 ./scripts/download_model_from_gist.sh 0179e52305ca768a601f <dirname>
 ```
-
-
 ## VGG-S
 
 This is [another popular CNN](http://www.robots.ox.ac.uk/~vgg/research/deep_eval/) from the University of Oxford Visual Geometry Group (VGG). On ILSVRC 2012, it has a top-5 error rate of 13.1% compared to 15.3% for AlexNet.
@@ -68,6 +66,17 @@ I0917 13:28:50.950788 17111 solver.cpp:315]     Test net output #0: accuracy = 0
 These weights can be downloaded at https://s3.amazonaws.com/jgoode/oxford102_VGG_S_iter_20000.caffemodel.
 
 AlexNet uses a crop size of 227 x 227, while VGG_S uses 224 x 224, so it's not an exact comparison.
+
+
+## InceptionResNetV2 
+Add  support for InceptionResNetV2,the test result to be added
+
+## ResNet50
+
+Add  support for ResNet50, the test result to be added
+
+
+
 
 ## Notes
 
